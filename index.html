@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>I am playing with Git</title>
+    <title>I am Bored</title>
 </head>
 <body>
-    <h1>This is a test</h1>
+        <div class="header">
+                <h1>Baltimore Ravens</h1>
+        </div>
+    
+          <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
 
-    <p>This is a paragraph</p>
+          <div class = "ravens Div">
+                 <h3>Baltimore Ravens</h3>
+                <img src="ravens.jpeg" alt="Ravens logo">
+                <p>The Baltimore Ravens are an American Football Team, in the National Footbal League</p>
+                
+                <button type ="button" onclick="myFunction()">AFC North</button>
+                <div id = "links1" style="display: none">
+                     <ul>
+                     <li><a href="https://www.baltimoreravens.com/" target ="_blank"> Link to Ravens website</a></li>
+                     <li><a href="https://www.steelers.com/" target ="_blank"> Link to Steelers website</a></li> 
+                     <li><a href="https://www.clevelandbrowns.com/" target ="_blank"> Link to Browns website</a></li>
+                     <li><a href="https://www.bengals.com/" target ="_blank"> Link to Bengals website</a></li>
+                     </ul>
+              </div>
+                
+
+          </div>
+
+          <div class = "ravens Off">
+                <h3>Baltimore Depth Chart</h3>
+               <img src="ravensOff.png" alt="Lamar Jackson">
+               <p>Lamar Jackson is the Starting Quarterback and the leader of this offense</p>
+               
+               <button type="button" onclick="myFunction1()">Depth</button>
+               <div id = "links2" style="display: none">
+                     <a href="https://www.baltimoreravens.com/team/depth-chart" target ="_blank"id ="ravLinks"> Link to Ravens Depth Chart</a>
+                     <form>
+                      Search:<br>
+                      <input type="text" name="Search">
+                      <br>
+                    </form>
+              </div>
+        </div>
+
+         <div class = "ravens Coaches">
+                <h3>Baltimore Coaches</h3>
+               <img src="coach.jpeg" alt="Coaches">
+               <p>Coach John Haurbagh is the head coach, and has been for 11 years</p>
+               
+               <button type="button" onclick="myFunction3()">Ravens Coaches</button>
+
+               <div id ="links4" style="display: none">
+                  <a href="https://www.baltimoreravens.com/team/coaches-roster/" target ="_blank"> Link to Ravens Coaches</a>
+               </div>
+               
+               
+        </div>
+
+         <div class = "ravens RingOfHonor">
+                <h3>Baltimore's Ring of Honor</h3>
+               <img src="rayLewis.jpeg" alt="Ring of Honor">
+               <p>Players that have been inducted into the Baltimore Ravens Ring of Honor</p>
+              
+               <button type="button" onclick="myFunction2()">Ring of honnor</button> 
+               <div id="links3" style="display: none">
+                <a href="https://www.baltimoreravens.com/team/history/ring-of-honor" target ="_blank"> Link to Ravens Ring of Honor</a>
+               </div>
+        </div>
+
+         <div class="footer">
+                <p>The Baltimore Ravens should sue me</p>
+                <a href="https://www.facebook.com/baltimoreravens/" target ="_blank" class="fa fa-facebook"></a>    
+                <a href="https://twitter.com/Ravens?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target ="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/ravens/?hl=en" target = blank class="fa fa-instagram"></a>
+                <script src="blah.js"></script>
+        </div>
 </body>
-</html>
